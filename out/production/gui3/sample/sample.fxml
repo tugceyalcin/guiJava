@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox prefHeight="433.0" prefWidth="391.0" GridPane.columnIndex="1">
+         <children>
+            <AnchorPane prefHeight="434.0" prefWidth="391.0">
+               <children>
+                  <Button fx:id="btn" layoutX="159.0" layoutY="273.0" mnemonicParsing="false" onAction="#btn2" prefHeight="25.0" prefWidth="103.0" text="Enter" />
+                  <Text fx:id="u1" layoutX="94.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User" wrappingWidth="36.13671875" />
+                  <Text fx:id="p1" layoutX="94.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+                  <TextField fx:id="t1" layoutX="159.0" layoutY="187.0" />
+                  <PasswordField fx:id="ps1" layoutX="159.0" layoutY="221.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+
+</GridPane>
